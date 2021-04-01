@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+/* CSS Document */
+
+
+
+*{
+	padding-top: 0%;
+	margin-top: 0%;
+	html: 100%;
+}
+h2 {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count:infinite;
+}
+
+.lista{
+	list-style: none;
+}
+
+.objesp{
+	list-style-type: inherit;
+}
+
+.contenedor{
+	width: auto;
+ 	margin: 0 auto;
+}
+
+.imgl{
+	width: 600px;
+	height: 390px;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+	background: #3AB1E5;
+ }
+
+nav ul{
+ width: 80%;
+ margin: 0 auto;
+ padding: 0;
+
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+}
+
+nav ul li:hover{
+ background: #3AB1E5;
+ 
+
+
+
+}
+nav ul li a{
+  text-decoration: none;
+   color: #fff;
+
+}
+
+header nav ul li:hover {
+	background :#305EC3;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#3AB1E5;
+	color: white;
+	position: absolute;
+	width: 10%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+.alinear{
+	padding-left: 60px;
+}
+
+
+section{
+	padding-top: 50px;
+}
+
+
+
+
+@media screen and (max-width: 980px){
+	.alinear{
+		padding-left: 0px;
+	}
+}
+

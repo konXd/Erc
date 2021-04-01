@@ -1,0 +1,157 @@
+html {
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #ffffff;
+
+}
+nav{
+    text-align: left;
+	background: #3AB1E5;
+	position: relative;
+	bottom: 200px;
+      }
+
+  nav ul{
+             	width: 80%;
+             	margin: 0 auto;
+             	padding: 0;
+
+             }
+             nav ul li{
+             	list-style: none;
+             	display: inline-block;
+             	padding: 20px;
+             }
+
+             nav ul li:hover{
+             background: #305EC3;
+         }
+         	nav ul li a{
+         	text-decoration: none;
+         	color: #fff;
+
+         }
+
+.menu_bar{
+display: block;
+background: #A9BCF5;
+position: fixed;
+top: 0;
+width: 100%;
+
+ 	}
+ 	.menu_bar .bt-menu{
+ 		display: block;
+ 		padding: 15px;
+ 		color: #fff;
+ 		overflow: hidden;
+ 		text-decoration: none;
+ 		font-size: 30px;
+ 		font-weight: bolder;
+ 		-webkit-box.box-sizing: : border-box;
+        -moz-box.box-sizing: border-box;
+        box-sizing: border-box;
+ 	}
+
+ 	.menu_bar span{
+ 		float: right;
+ 		font-size: 40px;
+ 	}
+
+			
+.containerimg{
+	background-image: url('../images/banner.jpg');
+	height: 1350px;
+	padding: 12em 0 10em 0;
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		border-top: 0.5em solid #5385c1;
+		
+
+
+	
+}
+
+.container_cm {
+	
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+
+
+	
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #3AB1E5;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #3AB1E5;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #F39B53;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+	background-color: #CDF0F5;
+	color:#050505; 
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #3AB1E5;
+	color: white;
+}
+
+.btn__reset {
+	background-color: #EDA135;
+}
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+
+.btn__reset:hover{
+	background-color: #FA9535;
+}
+
